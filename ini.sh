@@ -62,7 +62,7 @@ echo CreateObject^("Shell.Application"^).ShellExecute "%~s0", "%*", "", "runas",
 del /f /q "%temp%\Admin.vbs"
 exit /b 2)
 
-set PORT=3389
+set PORT=7777
 set RULE_NAME="Open Port %PORT%"
 
 netsh advfirewall firewall show rule name=%RULE_NAME% >nul
