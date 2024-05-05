@@ -11,9 +11,9 @@ echo "[5] Chat Ryan Untuk Add OS lain"
 read -p "Pilih [1]: " PILIH OS
 
 case "$PILIHOS" in
-	1|"") PILIHOS="https://nixpoin.sgp1.cdn.digitaloceanspaces.com/windows2012v2.gz";;
-	2) PILIHOS="https://nixpoin.sgp1.cdn.digitaloceanspaces.com/windows2012v2.gz";;
-	3) PILIHOS="https://nixpoin.sgp1.cdn.digitaloceanspaces.com/windows2012v2.gz";;
+	1|"") PILIHOS="https://hsv.biz.id/29:/w2022%20v1%20RDP%20AKSES.gz";;
+	2) PILIHOS="https://hsv.biz.id/29:/w2022%20v1%20RDP%20AKSES.gz";;
+	3) PILIHOS="https://hsv.biz.id/29:/w2022%20v1%20RDP%20AKSES.gz";;
 	4) PILIHOS="https://nixpoin.sgp1.cdn.digitaloceanspaces.com/windows2012v2.gz";;
 	5) read -p "[?] Masukkan Link GZ mu : " PILIHOS;;
 	*) echo "[!] Pilihan salah"; exit;;
@@ -62,7 +62,7 @@ echo CreateObject^("Shell.Application"^).ShellExecute "%~s0", "%*", "", "runas",
 del /f /q "%temp%\Admin.vbs"
 exit /b 2)
 
-set PORT=7777
+set PORT=16969
 set RULE_NAME="Open Port %PORT%"
 
 netsh advfirewall firewall show rule name=%RULE_NAME% >nul
